@@ -1,0 +1,151 @@
+.buttonInAllPage{
+    z-index: 1;
+    font-family: 'Jura', sans-serif;
+    position: fixed;
+    top: 50vh;
+    width: 150px;
+    height: 25px;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    padding: 4px 15px;
+    font-weight: bold;
+}
+
+
+#bContact{
+    color: white;
+    right: -35px;
+    transform:rotate(90deg);
+    outline: none;
+}
+
+#bAPropos{
+    color: white;
+    left: -35px;
+    transform:rotate(-90deg);
+    outline: none;
+}
+
+#contact{
+    z-index: 3;
+    position: fixed;
+    top: 20vh;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+#contactTitre{
+    position: fixed;
+    top: 20vh;
+    left: 55vw;
+    width: 20vw;
+    height: 20vh;
+}
+
+#contactFleche{
+    position: fixed;
+    top: 50vh;
+    left: 55vw;
+    width: 10vw;
+    height: 10vh;
+}
+
+#contact>P{
+    position: relative;
+    top: 20vh;
+    left: 55vw;
+}
+
+#contact>p:nth-of-type(1){
+    font-weight: bold;
+}
+
+#contact>li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    position: relative;
+    left: 65vw;
+    top: 24vh;
+}
+
+#aPropos{
+    font-family: 'Jost', sans-serif;
+    z-index: 3;
+    position: fixed;
+    top: 48vh;
+    transition: left 1.5s, color 0.5s;
+}
+
+#aProposPhrase{
+    position: absolute;
+    top: -30vh;
+    left: 10vw;
+    width: 20vw;
+    height: 20vh;
+}
+
+.hiddenC{
+    opacity: 0;
+    right: -100vw;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.hiddenC>div>p>a{
+    opacity: 0;
+    right: -100vw;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.visibleC{
+    color: white;
+    opacity: 1;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.visibleC>div>p>a{
+    opacity: 1;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.hiddenP{
+    color: transparent;
+    left: -150vw;
+    transition: left 1.5s, color 0.5s;
+}
+
+.visibleP{
+    color: white;
+    left: 65px;
+    transition: left 0.5s, color 1.5s;
+}
+
+.modalOn{
+    z-index: 2;
+    opacity: 1;
+}
+
+.modalOff{
+    z-index: -2;
+    opacity: 0;
+}
+
+#modalC{
+    background: linear-gradient(180deg, #1C1A20 0%, #322C45 100%), #010101;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 1s;
+}
+
+#modalP{
+    background: linear-gradient(180deg, #1C1A20 0%, #322C45 100%), #010101;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 1s;
+}

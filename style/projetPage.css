@@ -1,0 +1,252 @@
+#projets{
+    text-align: center;
+    position: relative;
+    top: 100vh;
+    height: 100vh;
+    width: 102vw;
+    z-index: -1;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    display: inline-grid;
+}
+
+#backgroundP{
+    z-index: -2;
+    background-image: url(../image/background.svg);
+    background-size: cover;
+    background-position: bottom;
+    height: 800vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.carousel-indicators{
+    bottom: -120px;
+    right: 18.5vw;
+    justify-content: flex-end;
+
+}
+
+.carousel-inner{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 90vh;
+    width: 90vw;
+    position: relative;
+    top: 35%;
+    left: 100px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.car{
+    padding: 45vh 0 0 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: none;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+    
+}
+
+.carousel-control-prev{
+    left: 26vw;
+    top: 520px;
+}
+.carousel-control-next{
+    right: 29vw;
+    top: 540px;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: white;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 0;
+  background: white;
+  opacity: 0.5;
+}
+
+ol.carousel-indicators li.active {
+  opacity: 1;
+}
+
+.shot{
+    text-decoration: none;
+    color: white;
+    word-wrap: break-word;
+}
+
+.shot:hover{
+    text-decoration: none;
+    color: white;
+}
+.shot >div{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    position: absolute; 
+    top: 460px;
+    left: 35vh;
+}
+
+.shot>img{
+    height: 400px;
+    width: 533px;
+    position: absolute;
+    top: 60px;
+    left: 40vh;
+    border-radius: 14px;
+}
+
+.shot >p:hover{
+    text-decoration: none;
+}
+
+.shot>p{
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    top: 520px;
+    left: 45vh;
+    width: 480px;
+}
+
+#footer{
+    color: white;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 25vw;
+}
+
+#fin{
+    font-weight: normal;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 90vh;
+    left: 35vw;
+}
+
+#footer>p:nth-of-type(1){
+    font-weight: bold;
+    position: relative;
+    top: 35vh;
+    color: white;
+    font-size: 60px;
+}
+
+#footer>p:nth-of-type(2){
+    font-weight: bold;
+    position: relative;
+    top: 35vh;
+    color: white;
+}
+
+#footer>p:nth-of-type(2){
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    left: -5vw;
+    top: 32vh;
+}
+
+#footer>a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 15vh;
+    left: 45vw;
+}
+
+#footer>li{
+    position: relative;
+    top: 37vh;
+    left: 2vw;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    height: 10vh;
+    width: 10vw;
+}
+
+#footerFleche{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    top: 55vh;
+    left: 37vw;
+}
+
+.fleche{
+    background-image: url(../image/flecheP.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 70vh;
+    left: 15vw;
+    height:7vh;
+    width: 7vw;
+}
+
+#num1{
+    position: absolute;
+    top: 60vh;
+    right: 10vw;
+}
+
+#num2{
+    position: absolute;
+    top: 165vh;
+    right: 10vw;
+}
+
+#num3{
+    position: absolute;
+    top: 270vh;
+    right: 10vw;
+}
+
+#num4{
+    position: absolute;
+    top: 375vh;
+    right: 10vw;
+}
+
+#num5{
+    position: absolute;
+    top: 480vh;
+    right: 10vw;
+}
+
+
+#num6{
+    position: absolute;
+    top: 585vh;
+    right: 10vw;
+}
