@@ -22,6 +22,7 @@
 
 #game>.carousel-inner{
     left: 0;
+    color: white;
 }
 
 .carousel-indicators{
@@ -185,7 +186,7 @@ ol.carousel-indicators li.active {
     color: white;
     position: absolute;
     top: 15vh;
-    left: 45vw;
+    left: 40vw;
 }
 
 #footer>li{
