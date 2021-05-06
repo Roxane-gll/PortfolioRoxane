@@ -15,7 +15,7 @@ let contactsPerson=document.getElementById('contact')
 //add info from dribbble
 
 $.ajax({
-    url: 'https://api.dribbble.com/v2/user?access_token='+/*'<?= getenv('accessToken') ?>'*/'e439a6dc4d286ebee41d358acbc7fba1f69ad625e4db3854d6016724a5503638',
+    url: 'https://api.dribbble.com/v2/user?access_token='+'<?= getenv('accessToken') ?>',
     dataType: 'json',
     type: 'GET',
     success: function(data) {
@@ -46,7 +46,7 @@ $.ajax({
 //add projet
 
 $.ajax({
-    url: 'https://api.dribbble.com/v2/user/shots?access_token='+/*'<?= getenv('accessToken') ?>'*/'e439a6dc4d286ebee41d358acbc7fba1f69ad625e4db3854d6016724a5503638'+'&per_page=100',
+    url: 'https://api.dribbble.com/v2/user/shots?access_token='+'<?= getenv('accessToken') ?>'+'&per_page=100',
     dataType: 'json',
     type: 'GET',
     success: function(data) {
