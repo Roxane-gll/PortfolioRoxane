@@ -69,8 +69,13 @@
     top: 24vh;
 }
 
+#github{
+    height: 5vh;
+}
+
 #aPropos{
     font-family: 'Jost', sans-serif;
+    font-size: 20px;
     z-index: 3;
     position: fixed;
     top: 48vh;
@@ -80,9 +85,18 @@
 #aProposPhrase{
     position: absolute;
     top: -30vh;
-    left: 10vw;
+    left: 5vw;
     width: 20vw;
     height: 20vh;
+}
+
+#aPropos>div>p:nth-of-type(1){
+    color: #8D85BF;
+    font-weight: bold;
+}
+
+#aPropos>div>p:nth-of-type(5){
+    font-weight: bold;
 }
 
 .hiddenC{
@@ -116,7 +130,15 @@
 
 .visibleP{
     color: white;
-    left: 65px;
+    left: 5vw;
+    transition: left 0.5s, color 1.5s;
+}
+
+.visibleP>div{
+    position: absolute;
+    top: -12vh;
+    left: 5vw;
+    width: 60vw;
     transition: left 0.5s, color 1.5s;
 }
 

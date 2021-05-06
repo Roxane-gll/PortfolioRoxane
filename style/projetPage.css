@@ -20,6 +20,10 @@
     position: absolute;
 }
 
+#game>.carousel-inner{
+    left: 0;
+}
+
 .carousel-indicators{
     bottom: -120px;
     right: 18.5vw;
@@ -58,11 +62,11 @@
 
 .carousel-control-prev{
     left: 26vw;
-    top: 520px;
+    top: 540px;
 }
 .carousel-control-next{
     right: 29vw;
-    top: 540px;
+    top: 545px;
 }
 
 .carousel-control-next-icon:after
@@ -119,6 +123,7 @@ ol.carousel-indicators li.active {
     top: 60px;
     left: 40vh;
     border-radius: 14px;
+    filter: drop-shadow(10px 10px 15px rgba(125, 110, 217, 0.3));
 }
 
 .shot >p:hover{
@@ -200,6 +205,12 @@ ol.carousel-indicators li.active {
     position: absolute;
     top: 55vh;
     left: 37vw;
+}
+
+#footerFusee{
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
 }
 
 .fleche{
